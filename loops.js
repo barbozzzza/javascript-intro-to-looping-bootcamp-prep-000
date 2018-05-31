@@ -4,13 +4,13 @@ function forLoop(array){
     
    
       
-   array.push(`"I am ${i} strange loop${i === 0 ? '' : 's'}."`)
+   array.push(`"I am ${i} strange loop${i === 0 ? '' : 's'}."`);
       
     
    
     
   }
-   return array
+   return array;
 }
 
 
@@ -19,9 +19,9 @@ function forLoop(array){
 
 function whileLoop(x){
 while (x > 0) {
-  console.log(--x)
+  console.log(--x);
 }
-return "done"
+return "done";
 }
 
 
@@ -35,7 +35,7 @@ function doWhileLoop(array) {
     
     array.pop();
     
-  }while (array.length > 0 && maybeTrue());
+  }while (array.length > -1 && maybeTrue());
   
   return array;
 
