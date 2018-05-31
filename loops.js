@@ -33,7 +33,7 @@ function doWhileLoop(array) {
   
   do{
     
-    array.shift()
+    array.length > 0 && maybeTrue()
     
   }while (maybeTrue());
   
