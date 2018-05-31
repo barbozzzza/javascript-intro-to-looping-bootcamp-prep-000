@@ -27,17 +27,17 @@ return "done"
 
 function doWhileLoop(array) {
   
-  return Math.random() >= 0.5
+  return Math.random() >= 0.5;
   
 }
   
   do{
     
-    array.shift()
+    array.shift();
     
-  }while (array.length > -1 && maybeTrue());
+  }while (array.length > 0 && maybeTrue());
   
-  return array
+  return array;
 
 
   
