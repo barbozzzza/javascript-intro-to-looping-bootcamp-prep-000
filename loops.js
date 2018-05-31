@@ -35,7 +35,7 @@ function doWhileLoop(array) {
     
     array.shift()
     
-  }while (mayeTrue());
+  }while (maybeTrue());
   
   return array
 
