@@ -33,9 +33,9 @@ function doWhileLoop(array) {
   
   do{
     
-    array.length > 0 && maybeTrue()
+    array.shift()
     
-  }while (maybeTrue());
+  }while (;
   
   return array
 
